@@ -1,0 +1,27 @@
+*{
+	box-sizing: border-box;	
+}
+body{
+	/*overflow: hidden;*/
+	background-color: #22212C;
+	color: white;
+	margin: 20px;
+	padding: 40px;
+}
+section li{
+	list-style: none;
+	cursor: pointer;
+}
+a:link	,a:visited{
+	text-decoration: none;
+	color: rgb(71,213,123)
+}
+a:hover,a:active{
+	color: cyan;
+}
+iframe{
+    overflow:hidden;
+}
+#subjects,#intro{
+	text-align: center;
+}

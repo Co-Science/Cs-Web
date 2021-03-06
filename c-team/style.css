@@ -1,0 +1,13 @@
+body{
+	background-color: #22212C;
+	color: white;
+	margin: 8px;
+	padding: 40px;
+}
+a:link	,a:visited{
+	text-decoration: none;
+	color: rgb(71,213,123)
+}
+a:hover{
+	color: cyan;
+}
