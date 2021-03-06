@@ -15,13 +15,16 @@
 		a:hover{
 			color: cyan;
 		}
+		div li{
+			list-style: none;
+		}
 	</style>
 </head>
 <body>
 	<h1 id="top">Subjects</h1>
 	<ul>
-		<li>intro</li>
-		<li>subjects</li>
+		<li><a href="#intro">intro 			</a></li>
+		<li><a href="#subjects">subjects 	</a></li>
 		<ul>
 			<li><a href="#sub1"> Math 					</a></li>
 			<li><a href="#sub2"> Data-structure 		</a></li>
@@ -32,77 +35,85 @@
 		</ul>
 		<li>final</li>
 	</ul>
-	<div>
-		<span id="sub1">Math</span>
-		<ul>
-			<li>
-				<a id="drive-notes1" href="https://drive.google.com/drive/folders/19mwGp4s-0apVTvrcCWK0zuwg7V6yVp3n" target="_blank" title="btech s3 notes">			Math-drive-notes
-				</a>
-				<iframe src="https://drive.google.com/drive/folders/19mwGp4s-0apVTvrcCWK0zuwg7V6yVp3n" style="width:100%; height:600px; border:0;"></iframe>
 
-				<!-- <iframe src="https://drive.google.com/embeddedfolderview?id=FOLDER-ID#list" style="width:100%; height:600px; border:0;"></iframe> -->
-			</li>
-		</ul>
+	<div>
+		<span id="intro">About</span>
+		<p>not added yet</p>
 	</div>
-	<div>
-		<span id="sub2">Data-structure</span>
-		<ul>
-			<li>
-				<a id="drive-notes2" href="https://drive.google.com/drive/folders/12HIesSizjVPdM6axsIqvhsh5woSrChek" target="_blank" title="btech s3 notes">Ds-drive-notes</a>
-				
-				<iframe src="https://drive.google.com/drive/folders/19mwGp4s-0apVTvrcCWK0zuwg7V6yVp3n" style="width:100%; height:600px; border:0;"></iframe>
-			</li>
-			<li>
-				<a id="labs1" href="https://drive.google.com/drive/folders/1i52I1zTdO-vppUwLvZ9nVZJ6rGiZ1p3A" target="_blank" title="btech s3 labs">Ds labs</a>
+	<div id="subjects">
+		<h2>Subjects</h2>
+		<div>
+			<h3 id="sub1">Math</h3>
+			<ul>
+				<li>
+					<!-- <a id="drive-notes1" href="https://drive.google.com/drive/folders/19mwGp4s-0apVTvrcCWK0zuwg7V6yVp3n" target="_blank" title="btech s3 notes">			Math-drive-notes -->
+					</a>
+					<iframe src="https://drive.google.com/embeddedfolderview?id=19mwGp4s-0apVTvrcCWK0zuwg7V6yVp3n#grid" style="width:100%; height:600px; border:0;"></iframe>
 
-				<iframe src="https://drive.google.com/drive/folders/19mwGp4s-0apVTvrcCWK0zuwg7V6yVp3n" style="width:100%; height:600px; border:0;"></iframe>
-			</li>
-		</ul>
-	</div>
-	<div>
-		<span id="sub3">Logic System Design</span>
-		<ul>
-			<li>
-				<a id="drive-notes3" href="https://drive.google.com/drive/folders/1dHXfewx0g1XzcPrMbS0SfTv0eoLr8m6k" target="_blank" title="btech s3 notes">LSD-drive-notes</a>
+				</li>
+			</ul>
+		</div>
+		<div>
+			<h3 id="sub2">Data-structure</h3>
+			<ul>
+				<li>
+					<!-- <a id="drive-notes2" href="https://drive.google.com/drive/folders/12HIesSizjVPdM6axsIqvhsh5woSrChek" target="_blank" title="btech s3 notes">Ds-drive-notes</a> -->
 
-				<iframe src="https://drive.google.com/drive/folders/19mwGp4s-0apVTvrcCWK0zuwg7V6yVp3n" style="width:100%; height:600px; border:0;"></iframe>
-			</li>
-		</ul>
-	</div>
-	<div>
-		<span id="sub4">Java</span>
-		<ul>
-			<li>
-				<a id="drive-notes4" href="https://drive.google.com/drive/folders/11vfkdvA15xTRzQp0vpxwUJr4tDAjPaqr" target="_blank" title="btech s3 notes">Java-drive-notes</a>
+					<iframe src="https://drive.google.com/embeddedfolderview?id=12HIesSizjVPdM6axsIqvhsh5woSrChek#grid" style="width:100%; height:600px; border:0;"></iframe>
+				</li>
+				<li class="labs">
+					<!-- <a id="labs1" href="https://drive.google.com/drive/folders/1i52I1zTdO-vppUwLvZ9nVZJ6rGiZ1p3A" target="_blank" title="btech s3 labs">Ds labs</a> -->
 
-				<iframe src="https://drive.google.com/drive/folders/19mwGp4s-0apVTvrcCWK0zuwg7V6yVp3n" style="width:100%; height:600px; border:0;"></iframe>
-			</li>
-			<li>
-				<a id="labs2" href="https://drive.google.com/drive/folders/1XyppIM5NZv028l5gFOprU3MHQeBaC5VS" target="_blank" title="btech s3 labs">Java labs</a>
+					<iframe src="https://drive.google.com/embeddedfolderview?id=1i52I1zTdO-vppUwLvZ9nVZJ6rGiZ1p3A#list" style="width:100%; height:200px; border:0;"></iframe>
+				</li>
+			</ul>
+		</div>
+		<div>
+			<h3 id="sub3">Logic System Design</h3>
+			<ul>
+				<li>
+					<!-- <a id="drive-notes3" href="https://drive.google.com/drive/folders/1dHXfewx0g1XzcPrMbS0SfTv0eoLr8m6k" target="_blank" title="btech s3 notes">LSD-drive-notes</a> -->
 
-				<iframe src="https://drive.google.com/drive/folders/19mwGp4s-0apVTvrcCWK0zuwg7V6yVp3n" style="width:100%; height:600px; border:0;"></iframe>
-			</li>
-		</ul>
-	</div>
-	<div>
-		<span id="sub5">Proff-ethics</span>
-		<ul>
-			<li>
-				<a id="drive-notes5" href="https://drive.google.com/drive/folders/19o8E-qsFRakMbq72k7oZX17rdQvNDBLp" target="_blank" title="btech s3 notes">PE-drive-notes</a>
+					<iframe src="https://drive.google.com/embeddedfolderview?id=1dHXfewx0g1XzcPrMbS0SfTv0eoLr8m6k#grid" style="width:100%; height:600px; border:0;"></iframe>
+				</li>
+			</ul>
+		</div>
+		<div>
+			<h3 id="sub4">Java</h3>
+			<ul>
+				<li>
+					<!-- <a id="drive-notes4" href="https://drive.google.com/drive/folders/11vfkdvA15xTRzQp0vpxwUJr4tDAjPaqr" target="_blank" title="btech s3 notes">Java-drive-notes</a> -->
 
-				<iframe src="https://drive.google.com/drive/folders/19mwGp4s-0apVTvrcCWK0zuwg7V6yVp3n" style="width:100%; height:600px; border:0;"></iframe>
-			</li>
-		</ul>
-	</div>
-	<div>
-		<span id="sub6">Sustainable Engg</span>
-		<ul>
-			<li>
-				<a id="drive-notes6" href="https://drive.google.com/drive/folders/19rP4N3DOgrJlLhs61Px-qzQL1SC98V2B" target="_blank" title="btech s3 notes">Sus-Engg-drive-notes</a>
+					<iframe src="https://drive.google.com/embeddedfolderview?id=11vfkdvA15xTRzQp0vpxwUJr4tDAjPaqr#grid" style="width:100%; height:600px; border:0;"></iframe>
+				</li>
+				<li class="labs">
+					<!-- <a id="labs2" href="https://drive.google.com/drive/folders/1XyppIM5NZv028l5gFOprU3MHQeBaC5VS" target="_blank" title="btech s3 labs">Java labs</a> -->
 
-				<iframe src="https://drive.google.com/drive/folders/19mwGp4s-0apVTvrcCWK0zuwg7V6yVp3n" style="width:100%; height:600px; border:0;"></iframe>
-			</li>
-		</ul>
+					<iframe src="https://drive.google.com/embeddedfolderview?id=1XyppIM5NZv028l5gFOprU3MHQeBaC5VS#list" style="width:100%; height:200px; border:0;"></iframe>
+				</li>
+			</ul>
+		</div>
+		<div>
+			<h3 id="sub5">Proff-ethics</h3>
+			<ul>
+				<li><!-- 
+					<a id="drive-notes5" href="https://drive.google.com/drive/folders/19o8E-qsFRakMbq72k7oZX17rdQvNDBLp" target="_blank" title="btech s3 notes">PE-drive-notes</a> -->
+
+					<iframe src="https://drive.google.com/embeddedfolderview?id=19o8E-qsFRakMbq72k7oZX17rdQvNDBLp#grid" style="width:100%; height:300px; border:0;"></iframe>
+				</li>
+			</ul>
+		</div>
+		<div>
+			<h3 id="sub6">Sustainable Engg</h3>
+			<ul>
+				<li>
+					<p>Nothing added so far</p><!-- 
+					<a id="drive-notes6" href="https://drive.google.com/drive/folders/19rP4N3DOgrJlLhs61Px-qzQL1SC98V2B" target="_blank" title="btech s3 notes">Sus-Engg-drive-notes</a> -->
+
+					<iframe src="https://drive.google.com/embeddedfolderview?id=19rP4N3DOgrJlLhs61Px-qzQL1SC98V2B#grid" style="width:100%; height:100px; border:0;"></iframe>
+				</li>
+			</ul>
+		</div>
 	</div>
 </body>
 <footer>
