@@ -17,24 +17,32 @@ div.sticky{
   border: 2px solid #4CAF50;*/
 
 }
+#top{
+  position: relative;
+  left: 30px;
+  margin-bottom: 20px;
+}
+
 div li{
 	list-style: none;
 	cursor: pointer;/*
   position: relative;
-  left: -15px;*/
+  left: -25px;*/
 }
 a:link	,a:visited{
 	text-decoration: none;
 	color: rgb(71,213,123)
 }
 a:hover,a:active{
-	color: cyan;
+	color: cyan;`
 }
-#subjects,#intro{
+#subjects,#intro,#last{
 	text-align: center;
 }
 h2{
 	text-align: left;
+  position: relative;
+  left: 250px;
 }
 h3{
   margin-top: 60px;
