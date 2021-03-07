@@ -3,13 +3,66 @@
 <head>
 	<meta charset="utf-8">
 	<title>subjects</title>
-	<link rel="stylesheet" type="text/css" href="style.css">
-	<!-- /c-team/subjects/ -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
+<!-- 
+  <header>
+    <nav id="header-nav" class="navbar navbar-default">
+      <div class="container">
+        <div class="navbar-header">
+          <a href="index.html" class="pull-left visible-md visible-lg">
+            <div id="logo-img" alt="Logo image"></div>
+          </a>
+
+          <div class="navbar-brand">
+            <a href="index.html"><h1 id="top">Subjects</h1></a>
+            <p>
+              <img src="images/star-k-logo.png" alt="Kosher certification">
+              <span>not added image</span>
+            </p>
+          </div>
+
+          <button id="navbarToggle" type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        </div>
+        
+        <div id="collapsable-nav" class="collapse navbar-collapse">
+           <ul id="nav-list" class="nav navbar-nav navbar-right">
+            <li id="navHomeButton" class="visible-xs active">
+              <a href="index.html">
+                <span class="glyphicon glyphicon-home"></span> Home</a>
+            </li>
+            <li id="navMenuButton">
+              <a href="#" onclick="$dc.loadMenuCategories();">
+                <span class="glyphicon glyphicon-cutlery"></span><br class="hidden-xs"> Menu</a>
+            </li>
+            <li>
+              <a href="#">
+                <span class="glyphicon glyphicon-info-sign"></span><br class="hidden-xs"> About</a>
+            </li>
+            <li>
+              <a href="#">
+                <span class="glyphicon glyphicon-certificate"></span><br class="hidden-xs"> Awards</a>
+            </li>
+            <li id="phone" class="hidden-xs">
+              <a href="tel:410-602-5008">
+                <span>410-602-5008</span></a><div>* We Deliver</div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+ -->
 	<h1 id="top">Subjects</h1>
-	<ul>
-		<li><a href="#">subjects 	</a></li>
+	<div class="sticky"></div>
+	<div class="Menu sticky">
 		<ul>
 			<li><a href="#sub1"> Math 					</a></li>
 			<li><a href="#sub2"> Data-structure 		</a></li>
@@ -18,16 +71,16 @@
 			<li><a href="#sub5"> Proff-ethics 			</a></li>
 			<li><a href="#sub6"> Sustainable Engg 		</a></li>
 		</ul>
-	</ul>
+	</div>
 	<hr>
 	<div id="intro">
 		<p>&quot;Together&quot; we can climb ,even the hightest Mountain</p>
 	</div>
 	<hr>
-	<section id="subjects" >
+	<div id="subjects" class="container-fluid">
 		<h2>Subjects</h2>
 		<!-- <hr> -->
-		<div>
+		<div >
 			<h3 id="sub1">Math</h3>
 			<ul  class="subs">
 				<li>
@@ -39,20 +92,24 @@
 			</ul>
 		</div>
 		<hr>
-		<div>
+		<div >
 			<h3 id="sub2">Data-structure</h3>
 			<ul  class="subs">
-				<li>
-					<!-- <a id="drive-notes2" href="https://drive.google.com/drive/folders/12HIesSizjVPdM6axsIqvhsh5woSrChek" target="_blank" title="btech s3 notes">Ds-drive-notes</a> -->
+				<div >
+					<li>
+						<!-- <a id="drive-notes2" href="https://drive.google.com/drive/folders/12HIesSizjVPdM6axsIqvhsh5woSrChek" target="_blank" title="btech s3 notes">Ds-drive-notes</a> -->
 
-					<iframe src="https://drive.google.com/embeddedfolderview?id=12HIesSizjVPdM6axsIqvhsh5woSrChek#grid"></iframe>
-				</li>
+						<iframe src="https://drive.google.com/embeddedfolderview?id=12HIesSizjVPdM6axsIqvhsh5woSrChek#grid"></iframe>
+					</li>
+				</div>
 				<hr>
-				<li class="labs">
-					<!-- <a id="labs1" href="https://drive.google.com/drive/folders/1i52I1zTdO-vppUwLvZ9nVZJ6rGiZ1p3A" target="_blank" title="btech s3 labs">Ds labs</a> -->
+				<div >
+					<li class="labs">
+						<!-- <a id="labs1" href="https://drive.google.com/drive/folders/1i52I1zTdO-vppUwLvZ9nVZJ6rGiZ1p3A" target="_blank" title="btech s3 labs">Ds labs</a> -->
 
-					<iframe src="https://drive.google.com/embeddedfolderview?id=1i52I1zTdO-vppUwLvZ9nVZJ6rGiZ1p3A#list"></iframe>
-				</li>
+						<iframe src="https://drive.google.com/embeddedfolderview?id=1i52I1zTdO-vppUwLvZ9nVZJ6rGiZ1p3A#list"></iframe>
+					</li>
+				</div>
 			</ul>
 		</div>
 		<hr>
@@ -73,17 +130,21 @@
 		<div>
 			<h3 id="sub4">Java</h3>
 			<ul  class="subs">
-				<li>
-					<!-- <a id="drive-notes4" href="https://drive.google.com/drive/folders/11vfkdvA15xTRzQp0vpxwUJr4tDAjPaqr" target="_blank" title="btech s3 notes">Java-drive-notes</a> -->
+				<div >
+					<li>
+						<!-- <a id="drive-notes4" href="https://drive.google.com/drive/folders/11vfkdvA15xTRzQp0vpxwUJr4tDAjPaqr" target="_blank" title="btech s3 notes">Java-drive-notes</a> -->
 
-					<iframe src="https://drive.google.com/embeddedfolderview?id=11vfkdvA15xTRzQp0vpxwUJr4tDAjPaqr#grid"></iframe>
-				</li>
+						<iframe src="https://drive.google.com/embeddedfolderview?id=11vfkdvA15xTRzQp0vpxwUJr4tDAjPaqr#grid"></iframe>
+					</li>
+				</div>
 				<hr>
-				<li class="labs">
-					<!-- <a id="labs2" href="https://drive.google.com/drive/folders/1XyppIM5NZv028l5gFOprU3MHQeBaC5VS" target="_blank" title="btech s3 labs">Java labs</a> -->
+				<div >
+					<li class="labs">
+						<!-- <a id="labs2" href="https://drive.google.com/drive/folders/1XyppIM5NZv028l5gFOprU3MHQeBaC5VS" target="_blank" title="btech s3 labs">Java labs</a> -->
 
-					<iframe src="https://drive.google.com/embeddedfolderview?id=1XyppIM5NZv028l5gFOprU3MHQeBaC5VS#list"></iframe>
-				</li>
+						<iframe src="https://drive.google.com/embeddedfolderview?id=1XyppIM5NZv028l5gFOprU3MHQeBaC5VS#list"></iframe>
+					</li>
+				</div>
 			</ul>
 		</div>
 		<hr>
@@ -111,8 +172,13 @@
 				</li>
 			</ul>
 		</div>
-	</section>
+	</div>
 	<span><a href="#top">go to top</a></span>
+
+	<!-- jQuery (Bootstrap JS plugins depend on it) -->
+	<script src="js/jquery-1.11.3.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<!-- <script src="js/script.js"></script> -->
 </body>
 <hr>
 <footer>
