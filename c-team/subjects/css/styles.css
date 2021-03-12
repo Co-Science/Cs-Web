@@ -1,6 +1,6 @@
 *{
 	box-sizing: border-box;	
-	margin: 0px;}
+}
 body{
 	/*overflow: hidden;*/
 	background-color: #2f2f4f;
@@ -136,6 +136,7 @@ li iframe{
 
 /********** Extra Small devices only **********/
 @media (max-width: 767px) {
+
   .container-fluid{
     width: 100%;
     position: relative;
@@ -145,6 +146,6 @@ li iframe{
     visibility: hidden;
   }
   li iframe{
-    width: 60%;
+    width: 120%;
   }
 }
