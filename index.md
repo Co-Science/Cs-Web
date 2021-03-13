@@ -1,8 +1,8 @@
 ## Pages so far
 
-[page1](./c-team/)
+[page1](./s3/)
 
-[page2](./c-team/subjects/)
+[page2](./s3/subjects/)
 
 only desktop view is working properly so far
 
