@@ -1,6 +1,5 @@
 import './App.css';
 import {Button, Col,Container,Row,Card,Navbar, Carousel,Table} from "react-bootstrap"
-import Iframe from "react-iframe";
 import iframer from "./utils/call_img"
 
 
