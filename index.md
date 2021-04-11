@@ -13,5 +13,5 @@ Feel free to contribute if you like what you see or get in touch with us
 
 
 ******************************************************************************
-[open source](./index.md).
+[open source](https://github.com/Co-Science/Cs-Web/tree/main/sem3).
 
