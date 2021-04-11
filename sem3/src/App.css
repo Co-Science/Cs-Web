@@ -8,13 +8,15 @@
     min-height: 80px;
     min-width: 100%;
     margin-bottom:10px;
-    color: grey;
+    color: #093c3c;
+    text-align:center;
+    font-size:2em;
 }
 iframe{
     width: calc(100% - 20px);
     margin: auto;
-    height: 28em;
-    margin-bottom: 4em;
+    height: 14em;
+    margin-bottom: 2em;
     background: #A2D5D5;
 }
 div{
