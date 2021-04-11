@@ -5,15 +5,33 @@
     min-height: 80px;
     min-width: 100%;
     margin-bottom:10px;
-    background: rgb(65, 228, 240);
-    color: yellow;
+    color: grey;
 }
 iframe{
-    width: calc(100% - 50px);
+    width: calc(100% - 20px);
     margin: auto;
     height: 28em;
     margin-bottom: 4em;
+    background: rgb(39, 252, 252);
 }
 div{
     width: 100%;
+    margin: auto;
+}
+.a7 > iframe{
+    visibility: hidden;
+    height: 2em;
+    
+}
+.a7{
+     
+    width:  calc(100% - 20px); 
+    margin: auto;
+    border: 1px solid black; 
+    background-color: rgba(43, 161, 161, 0.911); 
+    text-align:center; 
+
+}
+.a7:before{
+    content: "No Contents added to ";
 }

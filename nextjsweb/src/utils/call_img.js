@@ -23,7 +23,7 @@ function iframer(){
   const getDriveContent = gdrive_links => {
     let content=[];
     for (let link in gdrive_links) {
-      content.push(<div>{gdrive_names[link]}<Iframe src= {gdrive_links[link]} /></div>);
+      content.push(<div className={'a'+link} >{gdrive_names[link]}<Iframe src= {gdrive_links[link]} /></div >);
     }
     return content;
   }
