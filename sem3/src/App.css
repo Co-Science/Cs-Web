@@ -1,3 +1,6 @@
+*{
+    background:#179797;
+}
 .my-nav{
     margin-bottom: 2em;
 }
@@ -12,7 +15,7 @@ iframe{
     margin: auto;
     height: 28em;
     margin-bottom: 4em;
-    background: rgb(39, 252, 252);
+    background: #A2D5D5;
 }
 div{
     width: 100%;
@@ -28,7 +31,7 @@ div{
     width:  calc(100% - 20px); 
     margin: auto;
     border: 1px solid black; 
-    background-color: rgba(43, 161, 161, 0.911); 
+    background-color: #106969; 
     text-align:center; 
 
 }
