@@ -40,3 +40,10 @@ div{
 .a7:before{
     content: "No Contents added to ";
 }
+svg{
+    background: #343A40;
+    margin-right: 1em;
+}
+footer{
+    text-align:right;
+}
