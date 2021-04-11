@@ -2,10 +2,16 @@
 
 You are a curious person ...Huh
 
-Feel free to contribute , it is [open source]().
+Haha! got nothing for you right now
+
+but
+
+Feel free to contribute if you like what you see or get in touch with us
+
 
 [s3](./s3/)
 
 
 ******************************************************************************
+[open source](./index.md).
 
