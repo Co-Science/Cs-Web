@@ -9,7 +9,7 @@ but
 Feel free to contribute if you like what you see or get in touch with us
 
 
-[s3](./s3/)
+[s3](./sem3/)
 
 
 ******************************************************************************
