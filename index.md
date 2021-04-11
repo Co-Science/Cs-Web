@@ -1,6 +1,6 @@
 ## Woah! You found me 👋
 
-You are a curious person ...Huh
+You are a curious person. Aren't U?
 
 Haha! got nothing for you right now
 
