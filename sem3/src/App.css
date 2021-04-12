@@ -18,6 +18,11 @@ iframe{
     height: 14em;
     margin-bottom: 2em;
     background: #A2D5D5;
+    
+    /*border radius*/
+    /* border: 4px solid #111; */
+    -moz-border-radius: 15px;
+    border-radius: 15px;
 }
 div{
     width: 100%;
@@ -26,7 +31,6 @@ div{
 .a7 > iframe{
     visibility: hidden;
     height: 2em;
-    
 }
 .a7{
      
@@ -35,6 +39,9 @@ div{
     border: 1px solid black; 
     background-color: #106969; 
     text-align:center; 
+
+    border: 2px solid #111;
+    border-radius: 15px;
 
 }
 .a7:before{
