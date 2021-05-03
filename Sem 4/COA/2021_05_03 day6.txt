@@ -1,0 +1,65 @@
+Memory Loc ,Addr and Operation
+------------------------------
+memory consists of many millionns of storage cell.
+Each cell can store a bit.
+data is accrssed in n-bit groups called word
+n is called word length
+
+* 32 bit word len eg:
+
+ img : 32bit day6
+ 
+ b31 is a sign repr in bit
+ char = 1byte = 8bits :: therfore 4 chars can be stored
+
+Access num,char,strings
+------------
+
+num = one word
+access by word address
+
+char = one byte
+accessed by byte addr
+
+string = variable len
+beginnning of the string = beginning byte addr
+termination = special charr
+
+to retrieve from memory either for one word or byte sddr of each loc is needed
+a k-bit addr memory has 2^k memory loc called memory space
+24 bit= 16Mb
+32 bit = 4Gb
+1Kb = 2^10 =10bit
+1Tb = 2^40
+
+it is impractical to assign addr to individual bit loc so only addr to success
+byte location - byte addressable memory
+
+word alignment -  word are said to be alligned in memory if they begin at a
+byte addr that is a multiple of the number of bytes in a word  eg: 
+ *8 bit word = 0,1,2,... locs
+ *16 bit word = 0,2,4,... locs
+ *32 bit word = 0,4,8,... locs
+
+Big-endian and little-endian assignment
+-----------------
+big-ending: lower byte addr are used for the most signigicant byte of the word
+
+little-ending:oppposite ordering, lower byte addr are used for the least
+significant bytes of the word
+ 
+ img : day6_big-endin&little-endin
+
+prob:
+1. a memory has 32 bit addr  and byte addresable  what is the size of the
+memory(in byte)?
+ ans :2^32
+
+2.a mem has 24 bit and word addresable with the word length of 32 bits, what
+si the size of the memory(in bytes)?
+ ans : (2^24 word)*2^2 (1 word = 4 bytes)
+
+3.a mem has 16-bit addr and byte addressable word length is 32 bits(4bytes). How many
+word can we store in such a memory?
+ ans : (2^16 word)/2^2 (1 word = 4 bytes)
+
