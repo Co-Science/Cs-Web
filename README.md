@@ -3,7 +3,7 @@
 
 ## Woah! You found me 👋
 
-Feel free to contribute if you like what you see or get in touch with us
+Feel free to contribute if you like what you see 
 
 
 [s3](./sem3/)
