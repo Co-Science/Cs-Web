@@ -14,7 +14,7 @@ contains books helpful for Btech CompScience S3 Student under KTU
 
 ## [s4](./Sem%204)
 
-Contains md file having the notes from [FISAT](http://www.fisat.ac.in/) 
+Contains md file having the notes from classes
 
 Not all the files n S4 is complete, if you come across such a file it would be a huge help for us if you could fill them.
 
