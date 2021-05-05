@@ -1,7 +1,5 @@
-*.*.un
 *.un
-*.*.un~
 *.un~
-*.txt~
 *.md~
-.*.*.swp
+*.txt~
+*.swp
