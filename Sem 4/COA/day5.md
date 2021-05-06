@@ -18,27 +18,27 @@ there is data bus, addr bus, control bus,etc
 * if it was a single bus structure all units are connected to a bus so only one
 transfer at a time,only 2 device can communicate at a time
 
-* * single bus is the simplest form of a abus
+  * single bus is the simplest form of a abus
 
-* * multiple buseds have concurrency in operation better performation but
+  * multiple buseds have concurrency in operation better performation but
 expensive
 
 -Drawbacks
 
 * The devices connectted to a bus vary widely in their speed of operation
 
-* * devices relatively slow (printer, keyboard)
+  * devices relatively slow (printer, keyboard)
 
-* * fast(optical disc)
+  * fast(optical disc)
 
-* * faster(memory, processor)
+  * faster(memory, processor)
 
 * to cope with it:
 
-* * a common approach is to include buffer regisrers with the device to hold the
+  * a common approach is to include buffer regisrers with the device to hold the
 info during transfers
 
-* * two-bus sructure/multiple-bus structures
+  * two-bus sructure/multiple-bus structures
 
 
 Questions
