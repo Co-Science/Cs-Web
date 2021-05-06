@@ -8,7 +8,7 @@ Feel free to contribute if you like what you see
 
 ## [s3](./sem3/)
 
-It is a [webpage](cslavia.us) hosted on [vercel](https://vercel.com/).
+It is a [webpage](http://cslavia.us/) hosted on [vercel](https://vercel.com/).
 
 contains books helpful for Btech CompScience S3 Student under KTU
 
