@@ -10,11 +10,11 @@ defines the capture of a database
 
 - 1.define data storage details, when, what?
 
-- - access only to database admin or autherised by admin
+  - access only to database admin or autherised by admin
 
 - 2.-access of actual data and the realationship
 
-- - access to experienced user
+  - access to experienced user
 
 - 3.-give external view specific to end user
 
