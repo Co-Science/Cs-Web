@@ -48,7 +48,7 @@ to protect os from wrong users
 a bit called the mode bit is added to the hardware of the comp to indicate
 the current mode: kernel(0) and user(1)
 
-![modeTransfer](./img/modeTransfer,png)
+![modeTransfer](./img/modeTransfer.png)
 
 
 ### multi mode
