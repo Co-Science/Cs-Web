@@ -47,22 +47,6 @@ man - manual [helps to find the use of commands]
 echo - print to the screen
 ```
 
-
-Redirect
-
-- output redirect
-
-```
-> - redirect
-
->> - redirect[append to file/no rewrite]
-```
-
-- input redirect
-```
-< - 
-```
-
 ```
 tr - translate or delete chars
 
@@ -105,4 +89,18 @@ chmod - change modification
 ```
 
 
+Redirect
+
+> output redirect
+
+```
+> - redirect
+
+>> - redirect[append to file/no rewrite]
+```
+
+> input redirect
+```
+< - read from file
+```
 
