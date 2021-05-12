@@ -1,4 +1,4 @@
-this file contains the ans for the pdf above
+# this file contains the ans for the [pdf](./basic_commands_practise_all.pdf) above
 
 ## Answers
 
