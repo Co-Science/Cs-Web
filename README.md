@@ -14,9 +14,9 @@ contains books helpful for Btech CompScience S3 Student under KTU
 
 ## [s4](./Sem%204)
 
-Contains md file having the notes from classes
+Contains notes from classes
 
-Not all the files n S4 is complete, if you come across such a file it would be a huge help for us if you could fill them.
+If you come across a file which is incomplete it would be a great if you could help out.
 
 
 . . thanks
