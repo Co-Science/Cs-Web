@@ -2,9 +2,7 @@
 
 
 ## Woah! You found me 👋
-
-Feel free to contribute if you like what you see 
-
+If you are wondering what this repo is ?? It is a curated set of notes taken by some random kid who is a Btech student under KTU.
 
 ## [s3](./sem3/)
 
