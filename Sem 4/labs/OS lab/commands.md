@@ -104,3 +104,14 @@ Redirect
 < - read from file
 ```
 
+```
+ps -process status
+	ps -el [long list format]
+```
+
+```
+pstree - shows process in heirarchical structure
+	root - systemd,init
+	kthreadd - parent of all kernel
+```
+
