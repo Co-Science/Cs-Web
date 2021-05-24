@@ -2,21 +2,21 @@
 
 
 ## Woah! You found me 👋
+If you are wondering what this repo is ?? 
 
-Feel free to contribute if you like what you see 
+It is a curated set of notes taken by some random kid who is a Btech student under KTU.
 
+Follow the links to help yourself out
 
 ## [s3](./sem3/)
 
 It is a [webpage](http://cslavia.us/) hosted on [vercel](https://vercel.com/).
 
-contains books helpful for Btech CompScience S3 Student under KTU
+contains text books helpful for Btech CompScience S3 Student under KTU
 
 ## [s4](./Sem%204)
 
-Contains md file having the notes from classes
-
-Not all the files n S4 is complete, if you come across such a file it would be a huge help for us if you could fill them.
+Contains notes from classes
 
 
 . . thanks
