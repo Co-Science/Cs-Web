@@ -19,7 +19,7 @@ contains text books helpful for Btech CompScience S3 Student under KTU
 Contains notes from classes
 
 
-. . thanks
+. . Contributions are welcome and if you don't find what you seek just raise a [new issue](https://github.com/Co-Science/Cs-Web/issues) thanks
  
 
 
