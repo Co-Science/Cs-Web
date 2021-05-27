@@ -4,7 +4,7 @@
 ## Woah! You found me 👋
 If you are wondering what this repo is ?? 
 
-It is a curated set of notes taken by some random kid who is a Btech student under KTU.
+It has a curated set of notes taken by some random kid who is a Btech student under KTU.
 
 Follow the links to help yourself out
 
