@@ -115,3 +115,53 @@ pstree - shows process in heirarchical structure
 	kthreadd - parent of all kernel
 ```
 
+## Sys calls
+Functions for using kernel mode
+
+[Fork](https://www.youtube.com/watch?v=4aH8Hl7q54c)
+```
+fork() - to create a new process[new process- child process]
+	child process returns - 0
+	parent returns - +ve pid
+	error - -ve value
+```
+
+[Exec](https://www.youtube.com/watch?v=lifI5hBPAy4)
+```
+exec() - to execute binaries/executable files
+	execl("/usr/bin/ls","ls","-l",NULL) [execl is one form of exec]
+```
+> The first parameter of each function denotes the pathname of the file to be executed.A variable number of additional parameters. Each points to a string describing a command-line argument for the new program.
+
+```
+getpid() - gets  the process id[+ve if there is no error | not zero for child]
+```
+
+[Exit, Wait](https://www.youtube.com/watch?v=sHuOKogSd6s)
+```
+exit() - exit the process
+```
+ 
+```
+wait() >>- blocks the calling process until one of its child processes exits or a signal is received. A zombie process or defunct process is a process that has completed execution but still has an entry in the process table
+
+```
+
+```
+close() - 
+```
+
+[Stat](https://www.youtube.com/watch?v=FXaaN3fxDU4)
+```
+stat() - status/state
+```
+
+[Opendir, Readdir](https://www.youtube.com/watch?v=ETV_rzainOc)
+```
+opendir() - open directory
+```
+
+```
+readdir() - read contents of directories
+```
+
