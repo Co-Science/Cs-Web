@@ -1,0 +1,10 @@
+a=$1
+b=$2
+((sum=a+b))
+echo "sum = $sum"
+((sub=a-b))
+echo "subtraction = $sub"
+((div=a/b))
+echo "division = $div"
+((mul=a*b))
+echo "multiplication = $mul"

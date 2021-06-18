@@ -165,3 +165,23 @@ opendir() - open directory
 readdir() - read contents of directories
 ```
 
+```
+open -open and possibly create a file
+RDWR
+```
+
+```
+write - write to a file descriptor
+```
+
+```
+read - read from a file descriptor
+```
+
+```
+lseek - 
+	0 - stdin
+	1 - stdoout
+	2 - stderr
+
+```
