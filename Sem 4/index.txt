@@ -1,8 +1,0 @@
-COA
-DBMS
-DE
-labs
-MATH
-MNC
-OS
-awesome_links.md
