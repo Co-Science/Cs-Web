@@ -1,5 +1,6 @@
 *.un
-*.un~
-*.md~
-*.txt~
+*~
 *.swp
+*.cmd
+*.bat
+*.ps1
