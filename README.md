@@ -10,7 +10,7 @@ Follow the links to help yourself out
 
 ## [s3](./sem3/)
 
-It is a [webpage](http://cslavia.us/) hosted on [vercel](https://vercel.com/).
+It is a [webpage](https://cs-web-delta.vercel.app/) hosted on [vercel](https://vercel.com/).
 
 contains text books helpful for Btech CompScience S3 Student under KTU
 
