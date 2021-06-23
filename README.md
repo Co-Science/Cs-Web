@@ -25,5 +25,9 @@ Contains notes from classes
 
 
 ******************************************************************************
+S3 - https://cs-web-delta.vercel.app/ 
+
+S4 - https://co-science.github.io/Cs-Web/
+
 _notes from FISAT_
 
