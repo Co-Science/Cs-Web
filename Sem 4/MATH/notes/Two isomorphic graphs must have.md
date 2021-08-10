@@ -1,6 +1,13 @@
+---
+title: Two isomorphic graphs must have
+tags: [Import-81f6]
+created: '2021-06-20T18:45:02.335Z'
+modified: '2021-06-24T10:49:48.609Z'
+---
+
 <small>examples of a non isomorphic graph</small>
 
-![isomorphicandNonIsomorphicGraphs](./img/isomorphicandNonIsomorphicGraphs.png)
+![isomorphicandNonIsomorphicGraphs][./img/isomorphicandNonIsomorphicGraphs.png]
 
 ## Two isomorphic graphs must have
 
@@ -39,4 +46,3 @@ An open walk in which no vertex appears more than once is called its _**path**_.
 
 
 ![imgsExp](./img/imgsExp.png)
-

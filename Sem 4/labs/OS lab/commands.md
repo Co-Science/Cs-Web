@@ -166,8 +166,28 @@ readdir() - read contents of directories
 ```
 
 ```
-open -open and possibly create a file
-RDWR
+open("file.txt",arg2 [ ,mode ] ) -open, read, write and possibly create a file
+	arg2 	 | use
+	-------- | ---
+	O_CREAT  | create a regular file
+	O_APPEND | open a file in append mode
+	O_RDONLY | open file for reading only
+	O_WRONLY | open file for writing only
+	O_RDWR 	 | open file for both read and write
+
+	mode 	| use
+	------- | ---
+	S_IRWXU | 00700 user has read,write and execute permission
+	S_IRUSR | 00400 user has read perm
+	S_IWUSR | 00200 user has write perm
+	S_IXUSR | 00100 user has execute perm
+	S_IRWXG | 00070 group has read, write and execute perm
+	...	| ...
+
+	returns +ve int on success
+	0 - std in
+	1 - std out
+	2 - std err
 ```
 
 ```
@@ -179,7 +199,7 @@ read - read from a file descriptor
 ```
 
 ```
-lseek - 
+lseek(int fd, off_t offset, int whence) - 
 	0 - stdin
 	1 - stdoout
 	2 - stderr
