@@ -1,1 +1,0 @@
-[5_apps_in_django](https://python.plainenglish.io/5-awesome-django-projects-on-github-52f7691ccf35)
